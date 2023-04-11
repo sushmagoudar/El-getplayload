@@ -1,0 +1,10 @@
+name: Reuseworkflow
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  checkout:
+    uses: ELX-PeopleTech-DevOps/elx-a2-peopletech-workflow-base/.github/workflows/main.yml@main
+    secrets: inherit
+    
