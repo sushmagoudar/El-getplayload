@@ -14,7 +14,7 @@ var actionType = 'http'
 var method = 'GET'
 var workflowSchema = 'https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#'
 
-resource stg 'Microsoft.Logic/workflows@2019-05-01' = {
+resource logicAppName 'Microsoft.Logic/workflows@2019-05-01' = {
   name: logicAppName
   location: location
   tags: {
